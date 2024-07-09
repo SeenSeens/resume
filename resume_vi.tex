@@ -1,0 +1,142 @@
+%-------------------------
+% Resume in Latex
+% Author: Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{vntex}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/SeenSeens}{\Large Trương Đình Tuấn }} & Email : \href{mailto:truongtuan829@gmail.com}{truongtuan829@gmail.com}\\
+  \href{https://github.com/SeenSeens}{https://github.com/SeenSeens} & Mobile : 0385-573-558 \\
+\end{tabular*}
+
+%-----------Introduce-----------------
+  
+%-----------EDUCATION-----------------
+\section{Giáo dục}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Trường Cao Đẳng Công Nghệ Thông Tin TP. Hồ Chí Minh}{}
+      {Công nghệ thông tin}{08 2022 -- Nay}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Kinh nghiệm làm việc}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Công Ty Trách Nhiệm Hữu Hạn Thương Mại Dịch Vụ Halink}{TP. Hồ Chí Minh}
+      {Laravel \& Vue Intern}{04/2024 - Nay}
+      \resumeItemListStart
+        \item {Phát triển và bảo trì ứng dụng web sử dụng Laravel, đảm bảo mã nguồn sạch sẽ, dễ bảo trì và tuân thủ các tiêu chuẩn lập trình.}
+        \item {Thiết kế cơ sở dữ liệu và quản lý dữ liệu hiệu quả bằng Eloquent ORM của Laravel, đảm bảo tính toàn vẹn và hiệu suất của hệ thống.}
+        \item {Xây dựng và triển khai API RESTful để cung cấp dữ liệu cho frontend, đảm bảo các API hoạt động ổn định và bảo mật.}
+        \item {Tối ưu hóa hiệu suất và bảo mật cho các ứng dụng web, đảm bảo thời gian tải trang nhanh và trải nghiệm người dùng tốt.}
+        \item {Hỗ trợ triển khai các ứng dụng web lên server LEMP, cấu hình Nginx và thiết lập chứng chỉ SSL để đảm bảo an toàn cho giao tiếp mạng.}
+        \item {Nghiên cứu và áp dụng Tailwind CSS, VueJS, và Livewire vào các dự án thực tế, cải thiện giao diện người dùng và hiệu suất làm việc.}
+        \item {Tham gia quản lý dự án và làm việc nhóm, sử dụng các phương pháp quản lý Agile và công cụ như Jira để theo dõi tiến độ và phối hợp với đồng nghiệp.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Công Ty Trách Nhiệm Hữu Hạn Thương Mại Dịch Vụ Halink}{TP. Hồ Chí Minh}
+      {WordPress Develeper}{04/2019 - 02/2020}
+      \resumeItemListStart
+        \item {Thiết kế và phát triển các trang web WordPress, tham gia toàn bộ quy trình từ ý tưởng, thiết kế giao diện đến phát triển và triển khai.}
+        \item {Thực hiện bảo trì và nâng cấp các trang web WordPress, điều chỉnh và cải thiện các tính năng để đáp ứng yêu cầu kinh doanh và cải thiện trải nghiệm người dùng.}
+        \item {Phát triển và tích hợp các tính năng mới như hệ thống thanh toán, đăng nhập, và quản lý nội dung để nâng cao chức năng của trang web.}
+        \item {Bảo trì và gỡ lỗi trang web để đảm bảo hiệu suất và bảo mật, thực hiện các bản cập nhật phần mềm và bảo trì định kỳ.}
+        \item {Giải quyết các vấn đề kỹ thuật liên quan đến WordPress, đảm bảo hiệu suất và bảo mật của các trang web.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Dự án}
+  \resumeSubHeadingListStart
+    \resumeSubItem{News Website with Flask}
+      {Phát triển trang web tin tức công nghệ bằng Python Flask.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Kỹ Năng Lập Trình}
+ \resumeSubHeadingListStart
+   \resumeItem{Languages}{PHP, JavaScript, Python}
+   \resumeItem{Database}{MSSQL, MySQL, MongoDB}
+   \resumeItem{Framework}{WordPress, Laravel, ExpressJs, VueJs, Flask}
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
